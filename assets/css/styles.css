@@ -335,6 +335,11 @@ img{
   font-size: var(--small-font-size);
 }
 
+.menu__preci {
+  margin-bottom: 30px; /* Adjust the value as needed */
+  display: block; /* Ensure it takes up its own line */
+}
+
 .menu__detail{
   margin-bottom: var(--mb-1);
 }

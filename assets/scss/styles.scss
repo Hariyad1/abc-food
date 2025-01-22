@@ -289,31 +289,6 @@ img{
     }
 }
 
-/*========== SERVICES ==========*/
-.services{
-    &__container{
-        row-gap: 2.5rem;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    }
-    &__content{
-        text-align: center;
-    }
-    &__img{
-        width: 64px;
-        height: 64px;
-        fill: var(--first-color);
-        margin-bottom: var(--mb-2);
-    }
-    &__title{
-        font-size: var(--h3-font-size);
-        color: var(--title-color);
-        margin-bottom: var(--mb-1);
-    }
-    &__description{
-        padding: 0 1.5rem;
-    }
-}
-
 /*========== MENU ==========*/
 .menu{
     &__container{
@@ -358,27 +333,6 @@ img{
     }
 }
 
-/*========== APP ==========*/
-.app{
-    &__data{
-        text-align: center;
-    }
-    &__description{
-        margin-bottom: var(--mb-5);
-    }
-    &__stores{
-        margin-bottom: var(--mb-4);
-    }
-    &__store{
-        width: 120px;
-        margin: 0 var(--mb-1);
-    }
-    &__img{
-        width: 230px;
-        justify-self: center;
-    }
-}
-
 /*========== CONTACT ==========*/
 .contact{
     &__container{
@@ -388,7 +342,6 @@ img{
         margin-bottom: var(--mb-3);
     }
 }
-
 
 /*========== FOOTER ==========*/
 .footer{
@@ -536,7 +489,6 @@ img{
     }
 }
 
-/* For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
     .home__container {
         height: 640px;
